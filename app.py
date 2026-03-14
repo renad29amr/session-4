@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from PIL import Image  # Import Image from Pillow
+# from PIL import Image  # Import Image from Pillow
 
-st.set_page_config(page_title="Session 4", page_icon="ee.png")
+# st.set_page_config(page_title="Session 4", page_icon="ee.png")
 
-# #loads the image file using Pillow so it can be displayed in the app.
-img = Image.open("ee.png") 
-st.image(img, width=150)
+# # #loads the image file using Pillow so it can be displayed in the app.
+# img = Image.open("ee.png") 
+# st.image(img, width=150)
 st.title("My Streamlit App")
 st.write("Welcome to my dashboard!")
 st.write("**Welcome to my first Streamlit application!**")
